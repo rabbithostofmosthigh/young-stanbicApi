@@ -11,7 +11,7 @@ app.set("trust proxy", 1);
 // CORS
 app.use(
   cors({
-    origin: "https://desk-stanbic-online.vercel.app",
+    origin: "https://web-stanbic-app.vercel.app",
   })
 );
 
