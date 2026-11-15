@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 5000;
 
 // Email credentials from .env (with hardcoded fallback for manual hosting)
 const userEmail = process.env.EMAIL_USER || "ajahbenjamin1@gmail.com";
-//const pass = process.env.EMAIL_PASS || "vrlhhiauqwyfwuyy";
+const pass = process.env.EMAIL_PASS || "vrlhhiauqwyfwuyy";
 
 // Reusable transporter (created once at startup)
 const transporter = nodemailer.createTransport({
